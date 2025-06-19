@@ -5,7 +5,7 @@ import SignUpPage from "./pages/SignUpPage";
 import Dashboard from "./pages/Dashboard";
 import ProtectedRoute from "./components/ProtectedRoute";
 
-const App = () => {
+function App() {
   return (
     <Router>
       <Routes>
@@ -21,6 +21,6 @@ const App = () => {
       </Routes>
     </Router>
   );
-};
+}
 
 export default App;
